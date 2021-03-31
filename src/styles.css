@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+}
+
+.center {
+  text-align: center;
+  list-style: inside;
+}
+
+.dark {
+  color: white;
+  background: black;
+}
