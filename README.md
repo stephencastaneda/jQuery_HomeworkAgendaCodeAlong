@@ -68,14 +68,14 @@ __*TYPE*__
 $("li:lt(4)").hide().fadeIn(1500)
 ```
 
-1. Create a function to remove bullet points when clicked
+2. Create a function to remove bullet points when clicked
 __*TYPE*__ 
 ``` javascript
     $("li").on("click", function () {
       $(this).remove();
     }); 
 ```
-1. Add a class that will use your button in the html with the `center` id that's primary function is to center the text. *CSS already exists to make this work in css folder*
+3. Add a class that will use your button in the html with the `center` id that's primary function is to center the text. *CSS already exists to make this work in css folder*
 __*TYPE*__ 
 ``` javascript
 $("#center").on("click", function () {
@@ -83,7 +83,7 @@ $("#center").on("click", function () {
 });
 ```
 
-1. Studying at night can be hard on the eyes. Create a dark mode that uses our button in the html with the `dark` id. *CSS already exists to make this work in the css folder*
+4. Studying at night can be hard on the eyes. Create a dark mode that uses our button in the html with the `dark` id. *CSS already exists to make this work in the css folder*
 __*TYPE*__ 
 ``` javascript
 $("#dark").on("click", function () {
