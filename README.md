@@ -12,10 +12,6 @@ In this code along you will be using jQuery to add some cool features to a homew
 - Clone the repo to codesandbox
 - Follow the steps below
 
-## Code Along
-
-### Setup Instructions
-
 ---
 
 1. Link your `src/styles.css` file to your `index.html` file by adding a `link` tag to the head of your `index.html` file
