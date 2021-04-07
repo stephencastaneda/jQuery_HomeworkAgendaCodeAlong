@@ -53,7 +53,7 @@ In this code along you will be using jQuery to add some cool features to a homew
 2. Link your `index.js` file to your `index.html` file via a `script` tag at the bottom of your html file right before the closing `body` tag
    **_TYPE_**
 
-   import \$ from 'jQuery'
+   import \$ from 'jquery'
 
    ```
    <script src="src/index.js"></script>
