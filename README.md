@@ -50,7 +50,7 @@ In this code along you will be using jQuery to add some cool features to a homew
    }
    ```
 
-1. Link your `index.js` file to your `index.html` file via a `script` tag at the bottom of your html file right before the closing `body` tag
+2. Link your `index.js` file to your `index.html` file via a `script` tag at the bottom of your html file right before the closing `body` tag
    **_TYPE_**
 
    import \$ from 'jQuery'
@@ -59,19 +59,13 @@ In this code along you will be using jQuery to add some cool features to a homew
    <script src="src/index.js"></script>
    ```
 
----
-
-1. For your Do Now, you learned about using a `script` tag that had a `src` attribute that we set to an absolute url for a jQuery library on an online server. We are going to skip that step this time around. CodeSandbox has a dependency feature that we can utilize for this. We already have the jQuery library added as one of our dependencies. All that's left to do now is tell CodeSandox that we will be using the `$` from the jQuery library.
+3. For your Do Now, you learned about using a `script` tag that had a `src` attribute that we set to an absolute url for a jQuery library on an online server. We are going to skip that step this time around. CodeSandbox has a dependency feature that we can utilize for this. We already have the jQuery library added as one of our dependencies. All that's left to do now is tell CodeSandox that we will be using the `$` from the jQuery library.
 
    At the top of your `index.js` file
    **_TYPE_**
 
 ```
-
-```
-
-    import $ from 'jQuery'
-
+import $ from 'jQuery'
 ```
 
 ### Coding Instructions
@@ -79,13 +73,11 @@ In this code along you will be using jQuery to add some cool features to a homew
 ---
 
 1. Create a fade in effect using jQuery's `.hide()` & `.fadeIn()` method
-**_TYPE_**
+   **_TYPE_**
 
 ```
-
-\$("li:lt(4)").hide().fadeIn(1500)
-
-````
+$("li:lt(4)").hide().fadeIn(1500)
+```
 
 2. Create a function to remove bullet points when clicked
    **_TYPE_**
@@ -94,7 +86,7 @@ In this code along you will be using jQuery to add some cool features to a homew
 $("li").on("click", function () {
   $(this).remove();
 });
-````
+```
 
 3. Add a class that will use your button in the html with the `center` id that's primary function is to center the text. _CSS already exists to make this work in css folder_
    **_TYPE_**
