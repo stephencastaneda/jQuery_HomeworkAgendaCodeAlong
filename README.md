@@ -103,4 +103,5 @@ $("#center").on("click", function () {
 ```javascript
 $("#dark").on("click", function () {
   $("body").toggleClass("dark");
+});
 ```
